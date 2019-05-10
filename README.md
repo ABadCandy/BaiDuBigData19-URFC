@@ -23,3 +23,7 @@ train和test两个子文件夹里分别存放了筛选和预处理后的39730张
 3. 执行 python multimain.py 即可开始训练和测试，其中一些超参数如epoch,batch_size等可在config.py中修改。
 
 4. 等第3步执行完后会在sumbit文件夹下生成csv格式的预测结果，为了与提交系统要求保持一致需要再运行 python submission.py，最终在submit文件夹下得到submit.txt即可提交。
+
+
+提交结果如图：
+![image](https://github.com/ABadCandy/BaiDuBigData19-URFC/blob/master/images/132844245726548246.jpg)
