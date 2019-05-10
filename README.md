@@ -1,7 +1,7 @@
 # BaiDuBigData19-URFC
 my two networks solution with 0.67 accuracy 
 
-主要为了用Pytorch复现https://github.com/czczup/UrbanRegionFunctionClassification这位大神的tensorflow实现的双分支网络baseline，
+主要为了用Pytorch复现 https://github.com/czczup/UrbanRegionFunctionClassification 这位大神的tensorflow实现的双分支网络baseline，
 同时visit数据的转换和链接中visit2array.py效果一致，即转为7*26*24(天*周*小时)的特征矩阵。
 
 不同点：
