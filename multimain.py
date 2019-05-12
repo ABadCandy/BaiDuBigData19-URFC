@@ -176,12 +176,10 @@ def main():
     resume = False
     if resume:
         checkpoint = torch.load(r'./checkpoints/best_models/seresnext101_dpn92_defrog_multimodal_fold_0_model_best_loss.pth.tar')
-        model=checkpoint['model_name']
         best_acc = checkpoint['best_acc']
         best_loss = checkpoint['best_loss']
         best_f1 = checkpoint['best_f1']
         start_epoch = checkpoint['epoch']
-        optimizer=checkpoint['optimizer']
 
     if torch.cuda.device_count() > 1:
         model = nn.DataParallel(model)
