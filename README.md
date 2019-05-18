@@ -14,7 +14,7 @@ my two networks solution with 0.67 accuracy for 9 classification.
 
 
 使用说明：
-1. 预处理数据下载链接：https://pan.baidu.com/s/1Pil1LCesVy4m6Fsb02Ggow  提取码：q5vp 
+1. 预处理数据下载链接：https://pan.baidu.com/s/1RnHyy3dmXkXZtmN5GxUKxw  提取码：bsbn
 
 在当前目录下新建data文件夹，将下载好的数据解压至该目录下，最后可以看到data文件夹下有npy,train.test三个子文件夹，
 其中npy里存有转换好的train_visit和test_visit，train和test两个子文件夹里分别存放了筛选和预处理后的39730张训练图片，以及原始的1w张测试图片。
